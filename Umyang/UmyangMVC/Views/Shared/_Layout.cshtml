@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div id="nav">
+        @Html.ActionLink("About", "About");
+        @Html.ActionLink("What is TKD", "Whatis");
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
